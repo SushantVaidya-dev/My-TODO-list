@@ -106,7 +106,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-const port = process.env.port || 5000;
+const port = process.env.port;
 server.listen(port, () =>
   console.log(`I have created website and its running on the ${port}`)
 );
