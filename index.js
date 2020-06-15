@@ -106,7 +106,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-const port = process.env.port || 8080;
-server.listen(port, () =>
+const PORT = process.env.PORT || 8080;
+server.listen(PORT, () =>
   console.log(`I have created website and its running on the ${port}`)
 );
