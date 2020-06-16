@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homepahe</title>
-  </head>
-  <body>
-    <h1>Welcome to Homepage</h1>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Todo application</title>
+</head>
+<body>  
+    <div class="container">
+        <div class="controls">
+            <h1>My Awesome TODO</h1>
+            <input class="input" type="text" placeholder="Enter Your TODO's"><br> 
+            <button  id="add" type=" button">Add TODO</button><br>
+            <button id="remove" type=" button" >Remove TODO</button>
+        </div>
+
+        <ul id="list">
+           <!-- <li class="li"><input type="checkbox" class="check"><label></label></li>
+            <li class="li"><input type="checkbox" class="check"><label></label></li> -->
+        </ul>
+
+    </div>
+       
+       
+         
+    //<script src="jasonhandle.js"></script>        
+    <script src="todo.js"></script>
+</body>
 </html>
